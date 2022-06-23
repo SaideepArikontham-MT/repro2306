@@ -22,3 +22,7 @@ df.repartition(3).write.mode('overwrite').option("header", False).format("csv").
 
 # COMMAND ----------
 
+print("hello world")
+
+# COMMAND ----------
+
