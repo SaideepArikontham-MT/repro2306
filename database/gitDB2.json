@@ -1,0 +1,22 @@
+{
+	"name": "gitDB2",
+	"properties": {
+		"Name": "gitDB2",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://data@datalk2607.dfs.core.windows.net/gitDB2",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "synapse2707-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
