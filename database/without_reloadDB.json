@@ -1,0 +1,25 @@
+{
+	"name": "without_reloadDB",
+	"properties": {
+		"Name": "without_reloadDB",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://data@datalk2607.dfs.core.windows.net/without_reloadDB",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "synapse2707-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "5e20ea51-16d5-4cb2-b498-97e3add6a811"
+	},
+	"type": "DATABASE"
+}

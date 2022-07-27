@@ -1,0 +1,25 @@
+{
+	"name": "testDB",
+	"properties": {
+		"Name": "testDB",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://data@datalk2607.dfs.core.windows.net/testDB",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "synapse2707-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "2c9823ff-432c-490a-a25b-dd36ebd8a922"
+	},
+	"type": "DATABASE"
+}

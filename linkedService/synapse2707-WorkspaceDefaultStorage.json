@@ -1,0 +1,15 @@
+{
+	"name": "synapse2707-WorkspaceDefaultStorage",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"typeProperties": {
+			"url": "https://datalk2607.dfs.core.windows.net"
+		},
+		"type": "AzureBlobFS",
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		},
+		"annotations": []
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "three",
+	"properties": {
+		"Name": "three",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://data@datalk2607.dfs.core.windows.net/three",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "synapse2707-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "75e45ab5-26e8-43de-a778-debf8c3f0966"
+	},
+	"type": "DATABASE"
+}
