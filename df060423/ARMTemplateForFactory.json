@@ -27,6 +27,23 @@
 							"variableName": "tp",
 							"value": "this is a demo"
 						}
+					},
+					{
+						"name": "Set variable2",
+						"type": "SetVariable",
+						"dependsOn": [
+							{
+								"activity": "Set variable1",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"variableName": "tp",
+							"value": "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+						}
 					}
 				],
 				"policy": {
