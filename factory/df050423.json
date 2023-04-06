@@ -1,0 +1,14 @@
+{
+	"name": "df050423",
+	"properties": {
+		"globalConfigurations": {
+			"CICDEnvironment": "development"
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "52c3d5c7-1e1c-49f1-a299-5c5b1552bc26",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
