@@ -1,0 +1,9 @@
+{
+	"name": "df060423",
+	"properties": {
+		"globalConfigurations": {
+			"CICDEnvironment": "production"
+		}
+	},
+	"location": "westus2"
+}
